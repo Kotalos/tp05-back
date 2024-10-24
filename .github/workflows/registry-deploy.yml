@@ -35,4 +35,5 @@ jobs:
               with:
                 context: .
                 push: true
+                platforms: linux/amd64,linux/arm64
                 tags: ghcr.io/kotalos/tp05-back:latest
